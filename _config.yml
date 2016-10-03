@@ -9,7 +9,7 @@ exclude:
 
 # Site settings
 title: Code, Coffee, and Causerie
-subtitle: "My musings on technology and life, shared over a warm cup of Coffee."
+subtitle: "My musings on technology and life, shared over a warm cup of coffee."
 email: castner.rr@gmail.com
 name: Ryan Castner
 
@@ -38,11 +38,8 @@ highlightjs_theme: "monokai_sublime"
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: empyre
+    desc: "Empyre quantitative finance trading webapp project posts"
 
 # Social icons and sharing options
 #

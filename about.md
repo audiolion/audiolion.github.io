@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/ryanimage.jpg" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/ryan-mangatar.png" title="Profile Picture" class="profile">
 
 Hello! My name is Ryan Castner. I am a Senior at Rochester Institute of Technology (RIT) and a Full Stack Web Developer with concentrations in CS and Database Management. I am married as of September 17th, 2016 to my beautiful wife Casey. Together we love to explore the world and learn as much as we can. I hope this site can share some of those experiences to others.
 

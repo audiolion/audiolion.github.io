@@ -7,7 +7,7 @@ categories: Django
 tags: django query queries values optimize webdev
 cover:  "/assets/header_image_default.jpg"
 custom_js_highlight:
-- python_highlights
+- django_highlights
 ---
 
 # Optimizing Queries across Foreign Keys in Django

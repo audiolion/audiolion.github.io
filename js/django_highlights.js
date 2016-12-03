@@ -1,6 +1,6 @@
 $(document).ready(function() {
   hljs.configure({
-    languages: ['python','bash']
+    languages: ['python']
   });
   hljs.initHighlighting();
 });

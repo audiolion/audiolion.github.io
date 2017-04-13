@@ -1,27 +1,22 @@
 ## Intro
-Hi I'm Anthony Mandela, CEO of NexFitness and this is Ryan Castner CTO.
+Hi I'm Anthony Mandela and this is Ryan Castner and we are here to present NexFitness.
 
 ## Summary
-NexFitness is a crowd sourced fitness video training platform with a twist. We've thought of a unique approach that will allow us to build the best video workout library on the web.
+NexFitness is the next revolution in the fitness industry. It is an online video training platform that allows individually tailored workout plans for each person by crowd sourcing fitness videos from instructors and trainers across the world. In return we help those instructors promote their brands and easily deliver online content through our platform.
 
 ## Question
-How many of you have tried an online workout video before?
+How many people here have tried to stick to a workout plan and failed?
 
 ## Problem
-Well, like me, you probably know how difficult it is to stay motivated with your workouts. What is the best way to stay interested over the long run? Variety. Trying out new instructors and lots of different classes and teaching styles.
-Unfortunately, video workout content is scattered piecemeal across the web. Free content, paid content. Good quality, crappy quality. Fantastic instructors, horrible instructors. 2 minute videos, 2 hour videos. Where do you even start?
+The problem is workout plans are one-size fits all programs. We hop between training plans trying to find one that works or we eventually give up. But what if you had access to hundreds of different trainers with different training methodologies and styles. You could cherry pick workout videos that work for you and create your own training plan, customized to your needs and goals. It is variety, the spice of life, and it also helps us stay motivated in the long term so we don't get bored.
 
 ## Solution
-Imagine a one-stop-shop where you can discover new fitness instructors daily, explore great content, and organize workout video playlists tailored to your fitness goals and interests. Think of NexFitness as your fitness training home base, kind of like the iTunes for fitness video.
+Imagine the ability to try out new instructors and lots of different classes and teaching styles for less than the cost of your morning coffee? Think of NexFitness as your fitness training home base where you go to for your regular workouts, explore new trends, and socialize with and support your friends in their goals.
 
 ## How are we going to stand out?
 Bottom line: Because we are the only video training website that also provides a vital service to our fitness instructors—help growing their businesses. Taking their brands from the local community level to regional, national, and (eventually) global scale.
 
 
 In the next round, I’d love to tell you more about our instructor matching algorithm and our retreat planning tools that help instructors find top-rated fitness venues and create custom landing pages for their next event.
-
-
-## Expertise
-I've spoken with hundreds of fitness instructors during my time working at a startup in the fitness/wellness space called Aqua Nicaragua. The tools we are building are based on years of experience.
 
 Thank you for your time.

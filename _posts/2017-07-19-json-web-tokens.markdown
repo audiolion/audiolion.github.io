@@ -67,7 +67,9 @@ urlpatterns = [
 Feel free to rename the pattern to whatever fits your apps needs and makes sense to you. Now we can pass user auth data to this endpoint and have a token returned.
 
 ```
-$ curl -X POST -H "Content-Type: application/json" -d '{"username": "admin","password":"someSecret"}' http://localhost:8000/jwt-auth/
+$ curl -X POST -H "Content-Type: application/json" -d
+  '{"username": "admin","password":"someSecret"}'
+  http://localhost:8000/jwt-auth/
 ```
 
 The token that is returned will be included as a header in subsequent requests in the form `Authorization: JWT <token>`.
@@ -128,7 +130,8 @@ export const getCookie = function getCookie(name) {
   if (document.cookie && document.cookie !== '') {
     var cookies = document.cookie.split(';');
     for (var i = 0; i < cookies.length; i++) {
-      var cookie = cookies[i].replace(/(^\s+|\s+$)/g,'');  // trim whitespace around cookie
+      // trim whitespace around cookie
+      var cookie = cookies[i].replace(/(^\s+|\s+$)/g,'');
       // Does this cookie string begin with the name we want?
       if (cookie.substring(0, name.length + 1) === (name + '=')) {
         cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
@@ -148,7 +151,8 @@ import { getCookie } from './_getCookie';
 // set our API_ROOT
 const API_ROOT = window.location.origin + '/api';
 
-// implement a standard function to check for a good or bad response, throwing an err if bad
+// implement a standard function to check for a good or bad response
+// throwing an err if bad
 const checkStatus = res => {
   if (res.status >= 200 && res.status < 300) {
     return res;
@@ -182,8 +186,8 @@ const api = (method, url, body) => {
     },
   };
 
-  // if our request has a body, we need to JSON.stringify it, add the Content-Type header
-  // and add the X-CSRFToken header
+  // if our request has a body, we need to JSON.stringify it
+  // add the Content-Type header and add the X-CSRFToken header
   if (body) {
     options.body = JSON.stringify(body);
     options.headers['Content-Type'] = 'application/json';
@@ -197,7 +201,9 @@ const api = (method, url, body) => {
   }
 
   // handle special 204 case where no content is returned
-  return fetch(url, options).then(checkStatus).then(res => res.status !== 204 ? parseJSON(res) : res);
+  return fetch(url, options)
+          .then(checkStatus)
+          .then(res => res.status !== 204 ? parseJSON(res) : res);
 };
 
 // implement a basic wrapper around our api to make different HTTP requests
@@ -219,11 +225,13 @@ I like to do all this plumbing to keep my ORM-like objects that communciate with
 
 export const User = {
   login: (username, password) =>
-    requests.post('/jwt-auth', { username, password }).then(res => setToken(res.token)),
+    requests.post('/jwt-auth', { username, password })
+      .then(res => setToken(res.token)),
   logout: () =>
     setToken('jwt', null),
   register: (username, email, password) =>
-    requests.post('/register', { username, email, password }).then(res => setToken(res.token)),
+    requests.post('/register', { username, email, password })
+      .then(res => setToken(res.token)),
   token: () =>
     !!jwt,
 };

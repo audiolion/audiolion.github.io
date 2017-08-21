@@ -47,7 +47,8 @@ To accomplish this in Django we have a couple of options, at the highest level t
   {% now "DATETIME_FORMAT" as today %}
   {% if course.start|date:"DATETIME_FORMAT" > today %}
     {# course has not started yet #}
-  {% elif course.start|date:"DATETIME_FORMAT" < today and course.end|date:"DATETIME_FORMAT" > today %}
+  {% elif course.start|date:"DATETIME_FORMAT" < today
+      and course.end|date:"DATETIME_FORMAT" > today %}
     {# course is in session #}
   {% elif course.end|date:"DATETIME_FORMAT" < today %}
     {# course has ended #}
